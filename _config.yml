@@ -1,0 +1,16 @@
+# Site settings
+title: LAG-FEST
+email: info@lag-fest.com
+description: ""
+baseurl: ""
+url: "http://www.lag-fest.com"
+twitter_username: 
+facebook_username: LAGfest.LA
+github_username:  bentsea
+eventbrite_store: 
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+encoding: utf-8

@@ -1,0 +1,122 @@
+.slider .overlay .call-to-action a {
+	color:#747474;
+}
+
+.slider .overlay h3 {
+	background-color: #069750;
+	color: #FFF;
+	opacity: 0.9;
+	margin-top: 2px;
+	padding: 10px;
+}
+
+h1::before {
+	background-color: #069750;
+}
+
+.slider .overlay .call-to-action {
+	background-color: #fff;
+}
+
+.navigation .navbar .navbar-collapse .nav li a {
+	color: #069750;
+}
+
+.navigation .navbar .navbar-collapse .nav li.active a {
+	color: #069750;
+}
+
+.navigation .navbar .navbar-collapse .nav li.active a:after {
+	background-color: #069750;
+}
+
+.navigation .navbar .navbar-collapse .nav li a:after {
+	background-color: #069750;
+}
+.navigation .navbar .navbar-collapse .nav li a:hover {
+	color: #069750;
+}
+.navigation .navbar .navbar-collapse .nav li a:hover:after {
+	background-color: #069750;
+}
+
+.speaker .image .plus-wrapper .plus {
+	background-color: #006050;
+}
+
+.about .information .date {
+	color: #038154;
+}
+
+.find-way .form-group {
+	background-color: #038154;
+}
+
+.find-way .form-group::after {
+	background-color: #038154;
+}
+
+.panel-group .panel .panel-header .time i {
+	color: #038154;
+}
+
+.panel-group .panel .panel-header .fa-plus {
+	color: #038154;
+}
+
+.ticket header figure {
+	color: #038154;
+}
+
+.ticket ul li.checked i {
+	color: #038154;
+}
+
+footer .footer-bottom .contact h3 {
+	color: #038154;
+}
+
+a:hover, a:active, a:focus {
+	color: #038154;
+}
+
+a:hover, a:active, a:focus {
+	color: #038154;
+}
+
+footer a {
+	color: #038154;
+}
+
+p {
+	color: #000;
+	opacity: 0.75;
+}
+
+form.background-color-default .form-wrapper {
+	background-color: #038154;
+}
+
+.btn.btn-default, select.btn-default {
+	color: #038154;
+}
+
+.checkbox {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.btn.btn-default i, select.btn-default i {
+	color: #038154;
+}
+
+.btn.btn-primary, select.btn-primary {
+	background-color: #038154;
+}
+
+.btn.btn-primary:hover, select.btn-primary:hover {
+	background-color: #036342;
+}
+
+a {
+	color: #038154;
+}

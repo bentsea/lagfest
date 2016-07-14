@@ -1,0 +1,41 @@
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David Scott">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="/css/bootstrap-select.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="/css/animate.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/css/lightbox.css" type="text/css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:image" content="{{ site.url}}{% if page.image %}{{ page.image }}{% else %}/img/carousel/promotion_image.jpg{% endif %}">
+    {% if page.image1 %}<meta property="og:image" content="{{ site.url}}{{ page.image1 }}">{% endif %}
+    {% if page.image2 %}<meta property="og:image" content="{{ site.url}}{{ page.image2 }}">{% endif %}
+    {% if page.image3 %}<meta property="og:image" content="{{ site.url}}{{ page.image3 }}">{% endif %}
+    {% if page.image4 %}<meta property="og:image" content="{{ site.url}}{{ page.image4 }}">{% endif %}
+    {% if page.image5 %}<meta property="og:image" content="{{ site.url}}{{ page.image5 }}">{% endif %}
+    {% if page.image6 %}<meta property="og:image" content="{{ site.url}}{{ page.image6 }}">{% endif %}
+
+    <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-67413907-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
