@@ -145,7 +145,7 @@ $(window).load(function(){
             mouseDrag: false,
             items: 1,
 			responsiveClass: true,
-            responsiveBaseElement: ".slide",
+            responsiveBaseElement: ".slider",
             dots: false,
             animateOut: 'fadeOut',
             navigationText: ["",""],

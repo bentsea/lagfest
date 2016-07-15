@@ -282,11 +282,12 @@ p {
   content: "";
   display: block;
   height: 50px;
-  width: 1000px;
+  /* width: 1000px; */
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
+  /* overflow: hidden; */
 }
 .find-way .form-group input[type="text"] {
   -moz-box-shadow: none;
