@@ -1,0 +1,12 @@
+
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^([a-z.]+)?lag-fest\.com$ [NC]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .? http://www.lag-fest.com%{REQUEST_URI} [R=301,L]
+
+RewriteEngine on
+RewriteRule ^/?registration([a-z/.]*)$ http://lagfest.eventbrite.com/ [R=302,L]
+
+RewriteEngine on
+#RewriteRule ^/?schedule([a-z/.]*)$ https://docs.google.com/spreadsheets/d/1en4a_ly0E1HVe_f8uNuudBDwI2eO0TBfrxwaWvLbBXc/edit?usp=sharing [R=302,L]
