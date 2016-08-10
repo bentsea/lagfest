@@ -121,3 +121,31 @@ form.background-color-default .form-wrapper {
 a {
 	color: #038154;
 }
+
+.bootstrap-select .dropdown-menu li a:hover {
+	background-color: #038154;
+
+}
+
+
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  max-width:none;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
