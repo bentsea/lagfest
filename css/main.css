@@ -149,3 +149,7 @@ a {
   width: 100%;
   height: auto;
 }
+
+.modal .modal-dialog .modal-footer {
+	background-color: #069750;
+}
